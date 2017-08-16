@@ -1,0 +1,5 @@
+jobs:
+- name: blt-job-1
+  plan:
+  - task: hello
+    file: ./task.yml
