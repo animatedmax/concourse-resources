@@ -9,3 +9,7 @@ resources:
   type: git
   source:
     uri: https://github.com/animatedmax/concourse-resources.git
+- name: docker-image-resourse
+  type: docker-image
+  source:
+    repository: animatedmax/blt
