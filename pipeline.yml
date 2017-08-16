@@ -3,7 +3,7 @@ jobs:
   plan:
   - get: git-resource
   - task: hello
-    file: task.yml
+    file: git-resource/task.yml
 resources:
 - name: git-resource
   type: git
