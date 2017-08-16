@@ -3,7 +3,7 @@ jobs:
   plan:
   - get: git-resource
   - task: hello
-    file: ./task.yml
+    file: https://github.com/animatedmax/concourse-resources/blob/master/task.yml
 resources:
 - name: git-resource
   type: git
