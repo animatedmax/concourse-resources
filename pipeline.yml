@@ -7,4 +7,4 @@ resources:
 - name: git-resource
   type: git
   source:
-    uri: git@github.com:animatedmax/concourse-resource.git
+    uri: https://github.com/animatedmax/concourse-resources.git
