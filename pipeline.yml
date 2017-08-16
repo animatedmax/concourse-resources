@@ -2,6 +2,7 @@ jobs:
 - name: blt-job-1
   plan:
   - get: git-resource
+  - get: docker-image-resource
   - task: hello
     file: git-resource/task.yml
 resources:
