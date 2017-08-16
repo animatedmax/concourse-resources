@@ -1,6 +1,7 @@
 jobs:
 - name: blt-job-1
   plan:
+  - get: git-resource
   - task: hello
     file: ./task.yml
 resources:
