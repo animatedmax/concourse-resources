@@ -2,6 +2,7 @@ jobs:
 - name: blt-job-1
   plan:
   - task: hello
+    file: ./task.yml
 resources:
 - name: git-resource
   type: git
